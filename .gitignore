@@ -4,6 +4,10 @@ venv/
 ENV/
 env/
 
+# node modules
+node_modules
+vendor 
+
 # Byte-compiled / Python cache
 __pycache__/
 *.py[cod]
@@ -13,6 +17,7 @@ __pycache__/
 build/
 dist/
 *.egg-info/
-node_modules
+.local/
+
 # Environment variables
 # .env

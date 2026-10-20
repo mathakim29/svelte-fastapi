@@ -4,13 +4,15 @@
     "**/node_modules": true,
     "**/.venv": true,
     "**/venv": true,
-    "**/.git": true
+    "**/.git": true,
+    "**/vendor": true
   },
 
   // Hide from Search & Quick Open (Ctrl+P / Cmd+P)
   "search.exclude": {
     "**/node_modules": true,
     "**/.venv": true,
-    "**/venv": true
+    "**/venv": true,
+    "**/vendor": true
   }
 }
